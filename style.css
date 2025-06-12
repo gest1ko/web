@@ -1,0 +1,221 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+    background-color: #f5f5f5;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+    border: 1px solid #e0e0e0;
+}
+
+.header-info {
+    text-align: right;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.4;
+    background-color: #f0f8ff;
+}
+
+.name-cell {
+    width: 25%;
+    background-color: #f0f8ff;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.objective {
+    color: #555;
+    background-color: #f0f8ff;
+}
+
+.cv-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: #0066cc;
+    padding: 3px;
+}
+
+.section-title {
+    font-weight: bold;
+    color: #0066cc;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 18px;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 5px;
+}
+
+.skills-cell, .communication-cell {
+    background-color: #f9f9f9;
+    width: 25%;
+}
+
+.education-cell, .experience-cell {
+    background-color: white;
+}
+
+ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: #004080;
+}
+
+.company {
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.date {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+    font-style: italic;
+}
+
+.footer {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+.dark-mode .cv-container {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #333;
+}
+.dark-mode td {
+    border-color: #333;
+    background-color: #252525;
+}
+.dark-mode .header-info, .dark-mode .name-cell, .dark-mode .objective {
+    background-color: #2d2d2d;
+}
+.dark-mode .cv-title {
+    background-color: #0066cc;
+    color: white;
+}
+.dark-mode .footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+}
+.theme-switcher {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #0066cc;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.comments-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+.comment {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+form div {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+button[type="submit"] {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.browser-info {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 3px;
+}
